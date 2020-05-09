@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="utf-8">
+    <link rel="stylesheet"  href="bootstrap-grid.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+
+		<title>My Portfolio</title>
+	</head>
+	<body>
+        
+           <div class="container3"><div class="col-md-3">
+        <span class="logo">
+<img class="logoo" src="logo (2).png">
+
+        </span></div>
+		<div class="col-md-9"><nav class="navbar" id="top-nav">
+        
+            
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    
+                <ul class="nav-links menu">
+                <li><a class ="menuitems"href="#home"><i class="fa fa-home">Home</i></a></li>
+                <li><a class ="menuitems" href="#about"><i class="fa fa-question">About Me</i></a></li>
+                <li><a class ="menuitems" href="#contact"><i class="fa fa-phone">Contact Me</i></a></li>
+                
+                
+                
+            </ul>
+            
+     
+        </nav>
+    
+  
+      
+        </div>
+            
+           </div> 
+   
+
+        
+        
+        
+  
+
+     
+        <header>
+            
+            
+         
+            <div class="picture"><img class="pic" src="my pic.jpg" style="display: none;"></div>
+
+       <div class="abd"><h4 class="ml3">Hi i'm Abdulaziz Dablo A Web developer &amp; graphic designer</h4>
+       <img src="logo (2).png"></div>
+
+     
+        </header>
+    
+        <section id="home">
+           <div class="row">
+            <div class="col-md-12"> <h3>Home</h3></div>
+
+        </div><div class="col-md-12">
+        <p  class="intro">Let me interduce myself i am Abdulaziz Dablo a computer engineering student who is very passionate about Web Developing , quick learner , problem solver also a chess player i can speak English fluently and know some German and Japanesse i am well versed in progrmming languages and algorithms
+            My skills are: MySql,C++,React,HTMl,CSS,JavaScript,jQuery,Bootstrap,Python
+            and i can comfartably using PhotoShop and illustrator </p></div>
+            <div class="col-md-12 text-center justify-content-center">
+                <h3>My Services</h3>
+            </div>
+         
+
+    
+
+<div class="row serv">
+<div class="web col-md-6 text-center">
+
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="filp-card-front">
+               <div class="wrapper">
+                   <div class="icon">
+                       <i class="fa fa-desktop"></i></div>
+                       <p>flip me</p>
+                       
+                   </div>
+                   </div>
+             
+                   
+              
+               <div class="flip-card-back">
+                   <h2>Web Devlopment</h2><p>
+                      building responsive website with modern looks using
+                      HTML,CSS,JavaScript,React,Bootsrap,jQuery,and doing back-end wih node.js
+                   </p>
+                   
+               </div>
+            
+        
+    </div>
+  
+       
+       
+       </div>
+
+</div>
+
+
+
+
+
+
+
+    <div class="graphic col-md-6 text-center">
+
+     <div class="flip-card">
+         <div class="flip-card-inner">
+             <div class="filp-card-front">
+                <div class="wrapper">
+                    <div class="icon">
+                        <i class="fa fa-paint-brush"></i></div>
+                        <p>flip me</p>
+                    </div>
+                    </div>
+              
+                    
+               
+                <div class="flip-card-back">
+                    <h2>Graphic Design</h2><p>
+                        making creative logos,brochurs 
+                    </p>
+                    
+                </div>
+             
+         
+     </div>
+   
+        
+        
+        </div>
+
+</div>
+
+            </div>
+        </section>
+        <section id="about">
+            <div class="row">
+                <div class="col-md-12"> <h3>About Me</h3></div></div>
+                <div class="about-content">
+                    <p class="story"> my story is a story about constant learning and improving myself to the peak i,ve been in the front-end and graphic design for year and i can do back-end programming because there is no place execpt for the best and here you are i would be very glad to take your heavy work and do it
+
+
+
+                    </p>
+
+
+
+                </div>
+                
+    
+           
+
+
+
+
+        </section>
+        <section id="contact">
+            <h3>Contact Me</h3>
+
+   <div class="text"> <p>So you have chosen the right hero for your mission these are the social links</p></div>
+   <div class="container1">
+   <div class="face text-center justify-content-center">
+ </i><a href="https://www.facebook.com/abodeh.dablu"><i class="card-icon fa fa-facebook fa-fw"></i></a><p>
+Facebook<br>Abdulaziz S Dablo</p>
+</div>
+<div class="gmail text-center justify-content-center">
+    <i class="card-icon fa fa-envelope fa-fw" style="color: rgb(233, 230, 64);"></i><p>
+    Gmail<br>abooddablo@gmail.com</p>
+</div>
+</div>
+        </section>
+        
+
+
+
+
+
+
+
+        <script src="app.js"> 
+        
+        let lastScrollpos = window.pageYOffset;
+let menuButtonCheck = document.querySelector(".menu-btn");
+window.onscroll = function() {
+	let currentScrollPos = window.pageYOffset;
+	if (lastScrollpos > currentScrollPos) {
+		document.getElementById("top-nav").style.top = "0";
+	} else {
+		document.getElementById("top-nav").style.top = "-75px";
+	}
+	lastScrollpos = currentScrollPos;
+	menuButtonCheck.checked = false;
+} 
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+          <script></script>
+        
+     
+
+    </body>
+    
+</html>

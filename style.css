@@ -1,0 +1,594 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #e3e8ec;
+   
+
+
+    font-family: sans-serif;
+}
+.container3{
+    padding: 10px 0px;
+    width: calc(100%-10px);
+    min-height:0,6vh;
+    margin: auto 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: black;
+    
+}
+nav{position:relative;
+
+    margin: auto;
+    width: 70vw;
+    height:96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    font-weight: 700;
+
+}
+
+
+nav ul {
+
+    display: flex;
+    justify-content: center;
+    padding: 0px 50px;
+    flex-direction: row;
+
+
+  
+}
+
+nav ul li {padding: 0px 40px;
+    list-style: none;
+}
+
+nav ul li a{
+     padding: 0 10px;
+    text-decoration: none;
+    font-size: 1rem;
+    color:rgba(0, 0, 0, 0.541);
+    text-transform: uppercase;
+ 
+    
+}
+nav ul li a:hover{
+    border-bottom: solid 2px;
+    transition: 0.5s;
+}
+
+
+.logoo{display: inline-block;
+    height:4.5rem;
+    margin: auto;
+
+
+    
+    
+    
+
+}
+.logo{
+    margin: auto;
+}
+.menu-btn{
+    order: 4;
+   
+}
+header{position: relative;
+    background: no-repeat  left   url("pic3.jpg") white;
+    background-position:top bottom ;
+    background-size: 50% 90vh;
+  
+
+    /*background: rgb(215,215,233);
+    background: linear-gradient(66deg, rgba(215,215,233,1) 22%, rgba(170,76,18,0.7819502801120448) 49%);*/
+    display: flex;
+    justify-content: flex-end;
+    width:90%;
+    margin: 0 auto;
+  height:90vh;
+   
+    align-items: center;
+    -webkit-box-shadow: 10px 22px 123px -23px rgba(0,0,0,0.28);
+    -moz-box-shadow: 10px 22px 123px -23px rgba(0,0,0,0.28);
+    box-shadow: 10px 22px 123px -23px rgba(0,0,0,0.28);
+    border-radius: 98px 98px 98px 98px;
+-moz-border-radius: 98px 98px 98px 98px;
+-webkit-border-radius: 98px 98px 98px 98px;
+border: 0px solid #000000;
+text-align: center;
+
+}
+.abd{
+    width: 40%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    z-index: 7;
+    line-height: 60px;
+    text-align: center;
+    min-width: 40%;
+    margin: auto 50px;
+    font-size: 10vw;
+}
+.abd img{
+    margin-top: 42px;
+    width:150px;
+    height: auto;
+
+}
+.main{width: 100%;
+    display: flex;
+    font-size: 20px;
+    justify-content: flex-start;
+    margin-left: 30px;
+    
+    
+
+}
+
+
+
+h4{margin: auto;
+    text-align: center;
+    color:#4A4A4A;
+    font-size: 3vw;
+   
+   
+    
+ 
+    
+   
+ 
+}
+.picture{
+  /*  clip-path: polygon(27% 0, 60% 0, 88% 100%, 51% 100%);*/
+   
+
+
+   
+}
+
+.pic{
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 100%;
+    max-height:563.5px;
+    height:auto;
+    object-fit:contain;
+   
+}
+
+
+h3{display: block;
+    padding: 30px;
+    text-align: center;
+    font-size: 50px;
+    color: gray;
+    margin: 50px auto;
+
+
+}
+.intro{margin: 100px 30px;
+    
+    height: 300px;
+    width: calc(100%-30px);
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+padding: 20px 0;
+    line-height: 2.5rem;
+    font-family: sans-serif;
+    word-wrap: break-word;
+    text-overflow: clip;
+   
+}
+.intro::first-letter{
+    font-size:5rem ;
+letter-spacing: 40px;
+
+}
+section{margin: 50px auto;
+    width: 100%;
+    height: auto;
+}
+.skills{position: relative;
+    width: 100%;
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns:2fr 2fr;
+    justify-self: center;
+    align-self: center;
+    z-index: 2;
+    font-size: 2rem;
+    
+    
+}
+.container{width: 100%;
+
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+margin: 40px 0px;
+
+}.icon{
+    font-size: 3.5rem;
+}
+
+.story{margin: auto;
+    text-align: center;
+    width: 100%;
+    font-size: 2em;
+    padding: 100px 0px;
+    
+}
+#contact i{
+    text-align: center;
+    font-size: 3em;
+}
+
+
+.container1{  width: 100%;
+    text-align: center;
+     padding: 0 20px;
+    display: flex;
+ 
+    justify-content:center;
+    align-items: center;
+    padding: 0 50px;
+    font-size: 21px;
+    background-color: rgb(19, 18, 18);
+    color: white;
+
+}
+
+
+
+
+.face,.gmail{margin:100px 100px;
+    padding: 50px 30px;
+
+width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+ color: white;
+}
+
+
+.serv{
+    width: 100%;
+    padding:100px 0px;
+    display:flex;
+   justify-content: center;
+   align-items: center;
+    text-align: center;
+
+   
+ 
+
+}
+.wrapper{
+    background-color: white;
+}
+.web,.graphic{display: flex;
+    justify-content: center;
+    align-items: center;
+    height:200px;
+    width: 50%;
+    margin:50px auto;
+    text-align: center;
+ 
+
+}
+.web p,.graphic p{
+    text-align: center;
+
+    width: auto;
+
+    font-size: 23px;
+    margin: 0 auto;
+
+    
+
+   
+
+}
+
+
+h2{
+    padding: 40px 0px;
+    text-align: center;
+    
+
+}
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height:200px;
+    border: 1px solid #f1f1f1;
+    perspective:1000px;
+    line-height: 40px;
+   word-wrap: break-word;
+  }
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  /* Style the front side (fallback if image is missing) */
+.flip-card-front {display: flex;
+    justify-content: center;
+    align-items: center;
+  text-align: center;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+    height: 350px;
+  }
+.about-content{
+    font-size:0.9rem;
+    line-height: 60px;
+    margin: 0 40px;
+    text-align: center;
+    font-weight: 400;
+
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+
+}
+.icon i{position: relative;
+    z-index: 4;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(84, 131, 219);
+vertical-align: middle;
+    margin: auto;
+}
+.icon i::before{
+vertical-align: middle;
+}
+.card-icon{
+    font-size:21px;
+    width:60px;
+    height: 60px;
+    margin: 40px auto;
+    text-align: center;
+    line-height: 60px ;
+    border-radius: 50%;
+    transition: 0.3s linear;
+
+  
+
+}
+
+.face,.gmail,.card-icon:hover{
+  
+   background: none;
+    transform: scale(1.6);
+    
+}
+.face p ,.gmail p{
+
+    width:35vw;
+    font-size: 15px;
+    color: black;
+line-height: -30px;
+  
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-align: center;
+}
+#contact{
+    background-color: rgb(19, 18, 18); 
+    width: 100%;
+    height: auto;
+    
+}
+#contact h3{
+margin: 200px auto;
+}
+#contact .text{
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-family: 'Bangers', cursive;
+}
+
+section{
+   padding: 50px 0;
+
+}
+.menu-btn{
+    display: none;
+}
+
+@media only screen and (max-width: 768px){
+
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+    .container3{
+        display: flex;
+        align-items: center;
+    }
+    .logoo{
+        margin: auto 24px;
+        width: auto;
+        
+        
+    }
+ 
+        .top-nav {
+            position: relative;
+            width: 100%;
+            padding: 10px 10px 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            transition: top .75s ease-in;
+            background-color: #e8e8e8;}
+        
+ .menu{	list-style: none;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+align-items:flex-end;
+justify-content: center;
+    width: 100%;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+  
+   
+   
+    
+ }
+ 
+
+ li a{
+    display: inline-block;
+    min-width: 75px;
+    margin: .3em 0;
+    padding: 0 10px;
+    transition: 1s all;
+    text-decoration: none;
+    font-size: 20px;}
+ 
+    li a:focus, li a:hover, li a:active{
+        transform: scale(1.1) rotate(-2deg);
+        color: #20232d
+    }
+    .menu-icon{position: absolute;
+        cursor: pointer;
+        display: inline-block;
+        padding: 28px 20px;
+        left: 70%;
+       
+    }
+       
+        .navicon{
+            background: #20232d;
+            display: block;
+            height: 2px;
+            position: relative;
+            width: 1.625rem;}
+ 
+	.top-nav .menu-icon {
+        display: none;
+    }
+
+    .menu-btn{
+        display: none;
+
+
+    }
+    .menu-btn:checked ~ .menu{
+        max-height: 300px;
+    }
+    .serv{
+   
+ flex-direction: column;
+
+    }
+        
+
+    .container1{
+        flex-flow: column;
+
+    }
+ 
+
+    header{
+        background: url("pic1.jpg") white no-repeat center top;
+      background-size:250px;
+
+      
+      
+       
+        display: flex;
+        justify-content: center;
+     
+        text-align: center;
+        
+        
+    }
+    header h4{
+        text-align: center;
+        margin: auto;
+        line-height:20px;
+      font-size: 3vh;
+      margin-top: 60px;
+       
+    }
+    .face,.gmail{
+        width: 100%;
+        max-width: 300px;
+        margin: 10px 0;
+    }
+    
+
+    
+    .abd img{height: auto;
+        width:45%;
+      margin-bottom: -150px;
+
+    }
+    .pic{display: none;
+       
+    }
+}
+
+
+
+
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#959595+0,0d0d0d+46,010101+50,0a0a0a+53,4e4e4e+76,383838+87,1b1b1b+100;Black+Gloss+Pipe
+background: #959595;  Old browsers 
+background: -moz-linear-gradient(top,  #959595 0%, #0d0d0d 46%, #010101 50%, #0a0a0a 53%, #4e4e4e 76%, #383838 87%, #1b1b1b 100%);  FF3.6-15 
+background: -webkit-linear-gradient(top,  #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%); Chrome10-25,Safari5.1-6 
+background: linear-gradient(to bottom,  #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%);  W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=0 );  IE6-9 */
+
+
